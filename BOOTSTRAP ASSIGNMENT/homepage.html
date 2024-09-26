@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Social Media</a>
+            
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle ">
+                    Home
+                </button>
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    Aasik
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container for post and posts -->
+    <div class="container mt-4">
+        <!-- Post Input Box -->
+        <div class="card mb-4">
+            <div class="card-body ">
+                <textarea class="form-control mb-3 ssdolid" rows="4" placeholder="Write a post..."></textarea>
+                <button class="btn btn-primary  w-10  ">+ Post</button>
+            </div>
+        </div>
+
+        <!-- Posts Section -->
+        <div class="card mb-3 solid">
+            <div class="card-body">
+                <h5 class="card-title">V.Shapthu</h5>
+                <p class="card-text">One of the cornerstones of our approach here at SLGTI is ensuring that our students are exposed to both theoretical and practical learning. I am especially proud of the recent innovation competition held in Colombo, where our students from the ICT and Food Technology departments showcased their talents. Your dedication and hard work were on full display, and it was an honor to represent SLGTI on such a prestigious platform.</p>
+                <button class="btn btn-outline-primary btn-sm button">👍 Like</button>
+                <button class="btn btn-outline-primary btn-sm button">🔗 Share</button>
+            </div>
+        </div>
+        
+
+        <div class="card mb-3 solid">
+            <div class="card-body">
+                <h5 class="card-title">V.Shapthu</h5>
+                <p class="card-text">One of the cornerstones of our approach here at SLGTI is ensuring that our students are exposed to both theoretical and practical learning. I am especially proud of the recent innovation competition held in Colombo, where our students from the ICT and Food Technology departments showcased their talents. Your dedication and hard work were on full display, and it was an honor to represent SLGTI on such a prestigious platform.</p>
+                <button class="btn btn-outline-primary btn-sm button">👍 Like</button>
+                <button class="btn btn-outline-primary btn-sm ">🔗 Share</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
